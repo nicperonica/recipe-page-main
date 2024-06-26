@@ -11,9 +11,15 @@ body{
     font-size: 1rem;
 }
 
+hr{
+    border: 0;
+    background-color: black;
+    height: 1px;
+}
+
 .container{
     background-color: white;
-    padding: 20px;
+    padding: 25px;
 }
 
 .container-title{
@@ -51,6 +57,17 @@ body{
     font-size: 0.8rem;
 }
 
+.section-list-item{
+    font-weight: 600;
+    list-style: 1;
+}
+
+.section-list-desc{
+    color: hsl(30, 10%, 34%);
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 16px;
+}
 
 
 /* 
