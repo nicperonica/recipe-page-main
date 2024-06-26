@@ -8,7 +8,7 @@ body{
     color: hsl(24, 5%, 18%);
     font-family: "Outfit", sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 hr{
@@ -25,7 +25,11 @@ hr{
 
 .container-title{
     font-family: "Young Serif", serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+.container-desc{
+    text-align: justify;
 }
 
 .card-time{
@@ -34,18 +38,15 @@ hr{
 
 .card-title{
     color: hsl(332, 51%, 32%);
-    font-size: 1.1rem;
     font-weight: 600;
 }
 
 .card-list-item{
     color: hsl(332, 51%, 32%);
-    font-size: 0.8rem;
 }
 
 .card-list-desc{
     color: hsl(30, 10%, 34%);
-    font-size: 1rem;
 }
 
 .section-title{
@@ -60,28 +61,52 @@ hr{
 
 .section-list-item{
     font-weight: 600;
-    list-style: 1;
 }
 
 .section-list-desc{
     color: hsl(30, 10%, 34%);
     text-align: justify;
-    font-size: 1rem;
-    line-height: 16px;
+    line-height: 22px;
+    font-size: 1.1rem;
 }
 
-.row{
+.container-footer{
+    margin-top: 20px;
+}
+
+.table{
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin-top: 10px;
+    justify-content: flex-start;
+    list-style: none;
 }
 
-.row hr{
-    margin: 0;
+.table-item{
+    width: 350px;
 }
 
-.row span{
-    width: 10px;
-    margin-right: 150px;
+.table-highlight, .attribution a{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;   
+}
+
+@media (max-width: 768px){
+    body, .section-list-desc{
+        font-size: 1rem;
+    }
+    .container{
+        width: 500px;
+    }
+    .container-title{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 576px){
+    body{
+        font-size: 0.9rem;
+    }
+    .container{
+        width: 370px;
+    }
+    
 }
