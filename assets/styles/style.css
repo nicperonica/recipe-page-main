@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(243, 230, 216);
+    color: hsl(24, 5%, 18%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.container{
+    background-color: white;
+    padding: 20px;
+}
+
+.container-title{
+    font-family: "Young Serif", serif;
+    font-size: 2rem;
+}
+
+.card-time{
+    background-color: hsl(330, 100%, 98%);
+}
+
+.card-title{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.card-list-item{
+    color: hsl(332, 51%, 32%);
+    font-size: 0.8rem;
+}
+
+.card-list-desc{
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+}
+
+.section-title{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+}
+
+.section-list{
+    color: hsl(14, 45%, 36%);
+    font-size: 0.8rem;
+}
+
+
+
+/* 
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+- Nutmeg: hsl(14, 45%, 36%)
+*/
