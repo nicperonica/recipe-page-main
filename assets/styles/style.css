@@ -20,6 +20,7 @@ hr{
 .container{
     background-color: white;
     padding: 25px;
+    width: 700px;
 }
 
 .container-title{
@@ -69,11 +70,18 @@ hr{
     line-height: 16px;
 }
 
+.row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
 
-/* 
-- Eggshell: hsl(30, 54%, 90%)
-- Light Grey: hsl(30, 18%, 87%)
-- Wenge Brown: hsl(30, 10%, 34%)
-- Dark Charcoal: hsl(24, 5%, 18%)
-- Nutmeg: hsl(14, 45%, 36%)
-*/
+.row hr{
+    margin: 0;
+}
+
+.row span{
+    width: 10px;
+    margin-right: 150px;
+}
